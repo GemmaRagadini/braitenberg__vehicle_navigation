@@ -1,0 +1,22 @@
+
+   ```bash
+   nano ~/.bashrc
+   ```
+
+   Questo comando aprirà il file `.bashrc` nell'editor `nano`.
+
+3. **Vai alla fine del file**: Scorri fino alla fine del file `.bashrc`. Puoi farlo premendo ripetutamente il tasto `Ctrl + V` fino a quando non raggiungi la fine del file.
+
+4. **Aggiungi la linea**: Una volta alla fine del file, aggiungi la linea `source /opt/ros/noetic/setup.bash`. Assicurati che sia scritta esattamente così, senza spazi aggiuntivi o caratteri extra.
+
+5. **Salva e chiudi il file**: Per salvare le modifiche e chiudere l'editor `nano`, premi `Ctrl + X`, seguito da `Y` per confermare di voler salvare i cambiamenti, e infine `Invio` per confermare il nome del file.
+
+6. **Ricarica il file .bashrc**: Per applicare le modifiche al file `.bashrc` senza dover riavviare il terminale, esegui il seguente comando:
+
+   ```bash
+   source ~/.bashrc
+   ```
+
+   Questo comando esegue il file `.bashrc` nel tuo attuale ambiente di shell, aggiornando così l'ambiente con la nuova configurazione.
+
+Ora, ogni volta che apri un nuovo terminale o una nuova sessione di shell, il file `/opt/ros/noetic/setup.bash` sarà automaticamente eseguito, configurando l'ambiente per l'uso di ROS Noetic sul tuo sistema. Assicurati che il percorso `/opt/ros/noetic/setup.bash` sia corretto e rifletta la tua installazione di ROS Noetic.
