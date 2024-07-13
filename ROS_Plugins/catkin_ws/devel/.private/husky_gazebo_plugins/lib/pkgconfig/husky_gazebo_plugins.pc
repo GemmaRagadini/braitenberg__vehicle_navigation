@@ -1,0 +1,8 @@
+prefix=/home/gemmaraga/Desktop/braitenberg_nav_project/ROS_Plugins/catkin_ws/devel/.private/husky_gazebo_plugins
+
+Name: husky_gazebo_plugins
+Description: Description of husky_gazebo_plugins
+Version: 0.0.3
+Cflags: -I/home/gemmaraga/Desktop/braitenberg_nav_project/ROS_Plugins/catkin_ws/devel/.private/husky_gazebo_plugins/include -I/home/gemmaraga/Desktop/braitenberg_nav_project/ROS_Plugins/catkin_ws/src/husky_gazebo_plugins/include
+Libs: -L${prefix}/lib -lhusky_gazebo_plugins
+Requires: gazebo_ros gazebo_msgs roscpp message_runtime std_msgs geometry_msgs nav_msgs sensor_msgs

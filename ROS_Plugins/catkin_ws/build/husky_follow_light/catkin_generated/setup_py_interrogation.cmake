@@ -1,0 +1,7 @@
+set(husky_follow_light_SETUP_PY_SETUP_MODULE "setuptools")
+set(husky_follow_light_SETUP_PY_VERSION "0.0.0")
+set(husky_follow_light_SETUP_PY_SCRIPTS "")
+set(husky_follow_light_SETUP_PY_PACKAGES "smach_states")
+set(husky_follow_light_SETUP_PY_PACKAGE_DIRS "src/smach_states")
+set(husky_follow_light_SETUP_PY_MODULES "")
+set(husky_follow_light_SETUP_PY_MODULE_DIRS "")

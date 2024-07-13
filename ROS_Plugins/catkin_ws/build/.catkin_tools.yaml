@@ -1,0 +1,6 @@
+devel_space: /home/gemmaraga/Desktop/braitenberg_nav_project/ROS_Plugins/catkin_ws/devel
+install: false
+install_space: /home/gemmaraga/Desktop/braitenberg_nav_project/ROS_Plugins/catkin_ws/install
+profile: default
+source_space: /home/gemmaraga/Desktop/braitenberg_nav_project/ROS_Plugins/catkin_ws/src
+workspace: /home/gemmaraga/Desktop/braitenberg_nav_project/ROS_Plugins/catkin_ws

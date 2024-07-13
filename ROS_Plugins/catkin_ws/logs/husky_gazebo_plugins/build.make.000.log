@@ -1,0 +1,94 @@
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target _husky_gazebo_plugins_generate_messages_check_deps_GetHuskyOdometry[0m
+[35m[1mScanning dependencies of target _husky_gazebo_plugins_generate_messages_check_deps_WheelSpeeds[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target _husky_gazebo_plugins_generate_messages_check_deps_SetHuskyCmdVel[0m
+[35m[1mScanning dependencies of target _husky_gazebo_plugins_generate_messages_check_deps_GetHuskyJointStates[0m
+[35m[1mScanning dependencies of target _husky_gazebo_plugins_generate_messages_check_deps_SetHuskyWheelSpeeds[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target nav_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target _husky_gazebo_plugins_generate_messages_check_deps_SetHuskyCmdVel
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_nodejs[0m
+[  0%] Built target _husky_gazebo_plugins_generate_messages_check_deps_WheelSpeeds
+[  0%] Built target _husky_gazebo_plugins_generate_messages_check_deps_SetHuskyWheelSpeeds
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[  0%] Built target _husky_gazebo_plugins_generate_messages_check_deps_GetHuskyJointStates
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[  0%] Built target _husky_gazebo_plugins_generate_messages_check_deps_GetHuskyOdometry
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target nav_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_py[0m
+[  0%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target husky_gazebo_plugins_generate_messages_eus[0m
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target nav_msgs_generate_messages_lisp
+[  0%] Built target nav_msgs_generate_messages_py
+[35m[1mScanning dependencies of target husky_gazebo_plugins_generate_messages_nodejs[0m
+[  3%] [34m[1mGenerating EusLisp code from husky_gazebo_plugins/SetHuskyCmdVel.srv[0m
+[  3%] Built target geometry_msgs_generate_messages_lisp
+[  6%] [34m[1mGenerating EusLisp code from husky_gazebo_plugins/WheelSpeeds.msg[0m
+[ 10%] [34m[1mGenerating EusLisp code from husky_gazebo_plugins/GetHuskyJointStates.srv[0m
+[ 13%] [34m[1mGenerating EusLisp code from husky_gazebo_plugins/GetHuskyOdometry.srv[0m
+[35m[1mScanning dependencies of target husky_gazebo_plugins_generate_messages_cpp[0m
+[ 16%] [34m[1mGenerating Javascript code from husky_gazebo_plugins/WheelSpeeds.msg[0m
+[35m[1mScanning dependencies of target husky_gazebo_plugins_generate_messages_lisp[0m
+[ 20%] [34m[1mGenerating Javascript code from husky_gazebo_plugins/SetHuskyCmdVel.srv[0m
+[ 23%] [34m[1mGenerating C++ code from husky_gazebo_plugins/WheelSpeeds.msg[0m
+[ 26%] [34m[1mGenerating Lisp code from husky_gazebo_plugins/WheelSpeeds.msg[0m
+[ 30%] [34m[1mGenerating Lisp code from husky_gazebo_plugins/SetHuskyCmdVel.srv[0m
+[ 33%] [34m[1mGenerating Javascript code from husky_gazebo_plugins/GetHuskyOdometry.srv[0m
+[35m[1mScanning dependencies of target husky_gazebo_plugins_generate_messages_py[0m
+[ 36%] [34m[1mGenerating Lisp code from husky_gazebo_plugins/GetHuskyOdometry.srv[0m
+[ 40%] [34m[1mGenerating EusLisp code from husky_gazebo_plugins/SetHuskyWheelSpeeds.srv[0m
+[ 43%] [34m[1mGenerating Python from MSG husky_gazebo_plugins/WheelSpeeds[0m
+[ 46%] [34m[1mGenerating Python code from SRV husky_gazebo_plugins/SetHuskyCmdVel[0m
+[ 50%] [34m[1mGenerating Lisp code from husky_gazebo_plugins/GetHuskyJointStates.srv[0m
+[ 53%] [34m[1mGenerating Javascript code from husky_gazebo_plugins/GetHuskyJointStates.srv[0m
+[ 56%] [34m[1mGenerating C++ code from husky_gazebo_plugins/SetHuskyCmdVel.srv[0m
+[ 60%] [34m[1mGenerating EusLisp manifest code for husky_gazebo_plugins[0m
+[ 63%] [34m[1mGenerating Lisp code from husky_gazebo_plugins/SetHuskyWheelSpeeds.srv[0m
+[ 66%] [34m[1mGenerating C++ code from husky_gazebo_plugins/GetHuskyJointStates.srv[0m
+[ 70%] [34m[1mGenerating C++ code from husky_gazebo_plugins/GetHuskyOdometry.srv[0m
+[ 73%] [34m[1mGenerating Javascript code from husky_gazebo_plugins/SetHuskyWheelSpeeds.srv[0m
+[ 76%] [34m[1mGenerating Python code from SRV husky_gazebo_plugins/GetHuskyOdometry[0m
+[ 76%] Built target husky_gazebo_plugins_generate_messages_lisp
+[ 76%] Built target husky_gazebo_plugins_generate_messages_nodejs
+[ 80%] [34m[1mGenerating C++ code from husky_gazebo_plugins/SetHuskyWheelSpeeds.srv[0m
+[ 83%] [34m[1mGenerating Python code from SRV husky_gazebo_plugins/GetHuskyJointStates[0m
+[ 86%] [34m[1mGenerating Python code from SRV husky_gazebo_plugins/SetHuskyWheelSpeeds[0m
+[ 86%] Built target husky_gazebo_plugins_generate_messages_cpp
+[ 90%] [34m[1mGenerating Python msg __init__.py for husky_gazebo_plugins[0m
+[ 93%] [34m[1mGenerating Python srv __init__.py for husky_gazebo_plugins[0m
+[ 93%] Built target husky_gazebo_plugins_generate_messages_eus
+[ 93%] Built target husky_gazebo_plugins_generate_messages_py
+[35m[1mScanning dependencies of target husky_gazebo_plugins_generate_messages[0m
+[35m[1mScanning dependencies of target husky_gazebo_plugins[0m
+[ 93%] Built target husky_gazebo_plugins_generate_messages
+[ 96%] [32mBuilding CXX object CMakeFiles/husky_gazebo_plugins.dir/src/husky_plugin.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/gemmaraga/Desktop/braitenberg_nav_project/ROS_Plugins/catkin_ws/devel/.private/husky_gazebo_plugins/lib/libhusky_gazebo_plugins.so[0m
+[100%] Built target husky_gazebo_plugins

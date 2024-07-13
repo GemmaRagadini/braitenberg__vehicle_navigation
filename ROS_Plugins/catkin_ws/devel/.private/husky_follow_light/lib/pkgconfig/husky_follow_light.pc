@@ -1,0 +1,8 @@
+prefix=/home/gemmaraga/Desktop/braitenberg_nav_project/ROS_Plugins/catkin_ws/devel/.private/husky_follow_light
+
+Name: husky_follow_light
+Description: Description of husky_follow_light
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: rospy std_msgs geometry_msgs message_runtime
