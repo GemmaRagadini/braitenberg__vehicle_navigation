@@ -6,14 +6,13 @@ from cv_bridge import CvBridge, CvBridgeError
 import cv2
 import numpy as np
 
-
 class ImageProcessingNode:
 
     def __init__(self):
         rospy.init_node('image_processing_node', anonymous=True)
         self.bridge = CvBridge()
         self.image_sub = rospy.Subscriber('/husky_model/husky/camera', Image, self.image_callback)
-        self.action_pub = rospy.Publisher('/perform_action', Float32, queue_size=10)
+        self.action_pub = rospy.Publisher('/decision', Float32, queue_size=10)
 
     def image_callback(self, data):
         try:

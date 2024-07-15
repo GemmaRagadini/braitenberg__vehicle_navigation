@@ -9,10 +9,10 @@ class MotorControlNode:
     def __init__(self):
         rospy.init_node('motor_control_node', anonymous=True)
         self.cmd_pub = rospy.Publisher('/husky_model/husky/cmd_vel', Twist, queue_size=10)
-        self.action_sub = rospy.Subscriber('/perform_action', Float32, self.action_callback)
+        self.action_sub = rospy.Subscriber('/decision', Float32, self.decision_callback)
         rospy.loginfo("Motor Control Node Initialized")
 
-    def action_callback(self, msg):
+    def decision_callback(self, msg):
         decision = msg.data
         rospy.loginfo(f"Received angle: {decision}" )
         self.move(decision)
