@@ -9,17 +9,6 @@ find_package(catkin REQUIRED COMPONENTS
   message_generation
 )
 
-# add_service_files(
-#   FILES
-#   PerformAction.srv
-# )
-
-# add_message_files(
-#   FILES
-#   Action.msg
-# )
-
-
 catkin_python_setup()
 
 generate_messages(
@@ -33,7 +22,6 @@ catkin_package(
 )
 
 include_directories(
-# include
   ${catkin_INCLUDE_DIRS}
 )
 

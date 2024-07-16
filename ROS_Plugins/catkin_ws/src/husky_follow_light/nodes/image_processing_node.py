@@ -27,7 +27,7 @@ class ImageProcessingNode:
        
     def find_dominant_sector(self, cv_image):
         if cv_image is None:
-            rospy.logerr("Errore nel caricamento dell'immagine.")
+            rospy.logerr("Errore uploading image.")
             return 'none', 0
 
         height, width, _ = cv_image.shape
@@ -43,11 +43,11 @@ class ImageProcessingNode:
             ]
         tolerance = 10
         
-        # non si vede rosso 
+        # not seen red 
         if red_pixels_left < 20 and red_pixels_right < 20:
             return 1.2
         
-        if abs(red_pixels_left - red_pixels_right) <= tolerance: # il rosso è al centro 
+        if abs(red_pixels_left - red_pixels_right) <= tolerance: # red is in the center
             return 0
         else:
             if red_pixels_left > red_pixels_right:
