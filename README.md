@@ -30,11 +30,9 @@ braitenberg_nav_project/ROS_Plugins/catkin_ws/src/husky_follow_light\
 
 1. **Source the setup script**:
 
-   Navigate to the directory where the setup script is located and run: 
    ```bash
    source ./ROS_Plugins/catkin_ws/devel/setup.bash
 1. **Launch the simulation**
 
-   Start the simulation by running:
    ```bash
     roslaunch husky_follow_light navigate_maze.launch
